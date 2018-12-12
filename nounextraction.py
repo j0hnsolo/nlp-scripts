@@ -1,6 +1,6 @@
 import nltk
 
-File = open("cleanwikipedia.csv") 
+File = open("filename.txt") 
 lines = File.read() 
 sentences = nltk.sent_tokenize(lines) 
 nouns = [] #empty to array to hold all nouns
