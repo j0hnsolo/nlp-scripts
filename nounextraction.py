@@ -13,6 +13,6 @@ for sentence in sentences:
 print(nouns)
 nouns1 = " ".join(nouns)
 
-f = open("john.txt","w")
+f = open("output.txt","w")
 f.write(nouns1)
 f.close()
