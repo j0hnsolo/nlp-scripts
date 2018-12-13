@@ -3,7 +3,7 @@ import nltk
 File = open("filename.txt") 
 lines = File.read() 
 sentences = nltk.sent_tokenize(lines) 
-nouns = [] #empty to array to hold all nouns
+nouns = []
 
 for sentence in sentences:
      for word,pos in nltk.pos_tag(nltk.word_tokenize(str(sentence))):
